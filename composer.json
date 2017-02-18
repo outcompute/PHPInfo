@@ -1,0 +1,21 @@
+{
+    "name": "outcompute/phpinfo",
+    "description": "Get the output of phpinfo() as an array.",
+    "license": "GPL-2.0",
+    "keywords": ["php", "phpinfo", "array"],
+    "authors": [
+        {
+            "name": "outcompute",
+            "email": "gkumarrahul@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "OutCompute\\PHPInfo\\": "src"
+        }
+    }
+}
