@@ -24,7 +24,7 @@ class PHPInfo
             'data' => $phpInfo
         );
 
-		return $this;
+        return $this;
     }
 
     public function setHTML($phpInfo) {
@@ -33,7 +33,7 @@ class PHPInfo
             'data' => $phpInfo
         );
 
-		return $this;
+        return $this;
     }
 
     public function get() {
