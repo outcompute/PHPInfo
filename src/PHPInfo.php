@@ -23,6 +23,8 @@ class PHPInfo
             'mode' => 'text',
             'data' => $phpInfo
         );
+
+        return $this;
     }
 
     public function setHTML($phpInfo) {
@@ -30,6 +32,8 @@ class PHPInfo
             'mode' => 'html',
             'data' => $phpInfo
         );
+
+        return $this;
     }
 
     public function get() {
